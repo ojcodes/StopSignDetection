@@ -2,7 +2,7 @@
 
 import cv2 as cv
 #reads image
-img = cv.imread('res.png',0) #,0 is flag to read the images in monochrome
+img = cv.imread('/home/oj/oj_scripts/archive/face1.jpeg',0) #,0 is flag to read the images in monochrome
 #thresholds image
 ret,thresh = cv.threshold(img,64,255,cv.THRESH_BINARY)
 
