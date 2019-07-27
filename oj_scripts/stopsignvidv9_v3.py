@@ -31,7 +31,7 @@ while 1:
       #print "1/(h/11.0)", 1/(h/11.0) #h/12 gives~11, so divide h/11 but since more pixels means less distance so using 1/(h/11)
       dis= round(133/(h/11.3),1)  #1/(h/11) gives roughly 0.08 so 12/(1/(h/11)) gives a factor of ~140. Using it for scaling
       print 'distance(ft):',dis
-      #print("The number is " + str(dis))
+      
 
     cv.imshow('frame',frame)
     if cv.waitKey(1) & 0xFF == ord('q'):
